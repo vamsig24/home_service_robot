@@ -23,6 +23,14 @@ gmapping, turtlebot_gazebo, turtlebot_navigation, turtlebot_bringup, turtlebot_r
 **add_marker.sh** script file is used to test the visualisation of marker. The marker is published at the pickup zone. It will be hidden after 5 seconds to mimick that robot has collected the object. Then after another 5 seconds it appears at the drop off zone to mimick the dropoff.
 **home_service.sh** script file will run all the nodes in this project. Initially marker will be at the pickup zone and it will be hidden once your robot reach the pickup zone. The turtbot waits for 5 seconds to simulate a pickup. Finally, it shows the marker at the drop off zone once your robot reaches it.
 
+## Working video
+
+
+
+https://user-images.githubusercontent.com/84838684/129479362-c20338fc-3722-46ff-b403-a42c192c32e5.mp4
+
+
+
 ## Prerequisites
 
 You need to have installed [ROS - Robot Operating System](http://www.ros.org/) in your system along with navigation stack and xterm.
